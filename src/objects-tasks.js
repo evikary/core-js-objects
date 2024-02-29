@@ -267,20 +267,6 @@ function sortCitiesArray(arr) {
   return newObj;
 }
 
-console.log(
-  sortCitiesArray([
-    { country: 'Russia', city: 'Krasnodar' },
-    { country: 'Russia', city: 'Krasnodar' },
-    { country: 'Russia', city: 'Moscow' },
-    { country: 'Belarus', city: 'Minsk' },
-    { country: 'Poland', city: 'Warsaw' },
-    { country: 'Russia', city: 'Saint Petersburg' },
-    { country: 'Poland', city: 'Krakow' },
-    { country: 'Russia', city: 'Astrahan' },
-    { country: 'Belarus', city: 'Brest' },
-  ])
-);
-
 /**
  * Groups elements of the specified array by key.
  * Returns multimap of keys extracted from array elements via keySelector callback
